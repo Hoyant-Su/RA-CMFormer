@@ -9,5 +9,6 @@ git remote set-url origin "https://${TOKEN}@github.com/Hoyant-Su/RA-CMFormer.git
 
 git add .
 git commit -m "RA-CMFormer released."
-git checkout -b main ## the first time when intializing the repo link
+# git checkout -b main ## the first time when intializing the repo link
 # git push origin main
+git push -f origin main
