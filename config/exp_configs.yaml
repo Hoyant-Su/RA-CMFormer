@@ -1,0 +1,22 @@
+# config.yaml
+model:
+  "RA-CMFormer"
+exp:
+  #"BCLM_CRLM"  
+  "BCLM_PLC_HH"
+  
+date: 
+  #"0918"
+  "0915"
+
+fold_index: 2
+
+fold_name:  
+  #"5-fold_0918"
+  "5-fold_0915"
+
+settings:
+  lr: "1e-4"
+  epochs: 30
+  warmup_epoch: 3
+

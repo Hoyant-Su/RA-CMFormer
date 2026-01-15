@@ -1,0 +1,42 @@
+name: tumor_DL
+channels:
+  - http://nexus.sii.shaipower.online/repository/anaconda/main
+
+dependencies:
+  - python=3.9
+  - pip
+  - setuptools
+  - wheel
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+
+  - pip:
+      - torch==2.4.1
+      - torchvision==0.19.1
+      - triton==3.0.0
+
+      - simpleitk==2.2.1
+      - pynrrd==1.0.0
+      - pyradiomics==3.1.0
+      - pywavelets==1.6.0
+
+      - opencv-python-headless==4.10.0.84
+      - segmentation-models-pytorch==0.3.2
+      - timm==0.6.12
+      - efficientnet-pytorch==0.7.1
+      - pretrainedmodels==0.7.4
+
+      - tqdm==4.64.1
+      - pillow==10.4.0
+      - pyyaml==6.0.2
+      - requests==2.32.3
+      - huggingface-hub==0.24.6
+
+      - sympy==1.13.2
+      - networkx==3.2.1
+
+      - typing-extensions==4.12.2
